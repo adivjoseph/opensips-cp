@@ -20,6 +20,9 @@
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
  */
 
+//Remove PHP7.0 warning
+$config = (object)array("db_driver"=>"mysql");
+
  //database driver mysql or pgsql
  $config->db_driver = "mysql";	
 
