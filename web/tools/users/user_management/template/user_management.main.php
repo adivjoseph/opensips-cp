@@ -83,6 +83,7 @@ if ($has_acl){
 if ($has_alias){
 	$colspan++;
 }
+$temp = '';
 if ( $users == "online_usr" ) {
 	$checkedAll="";
 	$checkedOnline="checked";
